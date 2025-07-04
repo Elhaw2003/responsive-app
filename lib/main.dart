@@ -1,38 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_app/feature/dashboard/view/dashboard_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const ResponsiveApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class ResponsiveApp extends StatelessWidget {
+  const ResponsiveApp({super.key});
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      home: Scaffold(
-        body: Column(
-          children: [
-            Flexible(
-              child: Container(
-                width: 200,
-                height: 500,
-                color: Colors.red,
-              ),
-            ),
-            Container(
-              width: 200,
-              height: 200,
-              color: Colors.yellow,
-            ),
-            Container(
-              height: 200,
-              width: 200,
-              color: Colors.green,
-            )
-          ],
-        ),
-      ),
+    return const MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: DashboardScreen(),
     );
   }
 }
