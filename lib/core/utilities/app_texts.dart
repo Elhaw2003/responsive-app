@@ -7,5 +7,6 @@ abstract class AppTexts {
   static const String logoutAccount = 'Logout Account';
   static const String settingSystem = 'Setting System';
   static const String walletAccount = 'Wallet Account';
+  static const String allExpenses = 'All Expenses';
   static const String myInvestments = 'My Investments';
 }

@@ -2,10 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:responsive_app/core/utilities/app_colors.dart';
 import 'package:responsive_app/core/utilities/app_texts.dart';
 import 'package:responsive_app/feature/dashboard/models/item_drawer_model.dart';
-import 'package:responsive_app/feature/dashboard/view/widgets/item_drawer_list_view_widget.dart';
-import 'package:responsive_app/feature/dashboard/view/widgets/item_drawer_widget.dart';
-import 'package:responsive_app/feature/dashboard/view/widgets/setting_and_logout_widget.dart';
-import 'package:responsive_app/feature/dashboard/view/widgets/user_info_list_tile_widget.dart';
+import 'package:responsive_app/feature/dashboard/view/widgets/drawer/item_drawer_list_view_widget.dart';
+import 'package:responsive_app/feature/dashboard/view/widgets/drawer/setting_and_logout_widget.dart';
+import 'package:responsive_app/feature/dashboard/view/widgets/drawer/user_info_list_tile_widget.dart';
 import 'package:responsive_app/generated/assets.dart';
 
 class DrawerWidget extends StatelessWidget {

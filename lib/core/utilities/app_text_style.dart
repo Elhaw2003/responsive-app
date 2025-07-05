@@ -8,6 +8,21 @@ abstract class AppTextStyle {
     fontSize: 16,
     fontWeight: FontWeight.w600
   );
+  static  TextStyle whiteColorMontserratW600S24 =  GoogleFonts.montserrat(
+    color: AppColors.whiteColor,
+    fontSize: 24,
+    fontWeight: FontWeight.w600
+  );
+  static  TextStyle whiteColorMontserratW400S14 =  GoogleFonts.montserrat(
+    color: AppColors.whiteColor,
+    fontSize: 14,
+    fontWeight: FontWeight.w400
+  );
+  static  TextStyle whiteColorMontserratW600S16 =  GoogleFonts.montserrat(
+    color: AppColors.whiteColor,
+    fontSize: 16,
+    fontWeight: FontWeight.w600
+  );
   static  TextStyle secondaryColorMontserratW400S16 =  GoogleFonts.montserrat(
     color: AppColors.secondaryColor,
     fontSize: 16,
