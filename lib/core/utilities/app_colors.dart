@@ -11,4 +11,6 @@ abstract class AppColors {
   static const Color blackColor = Color(0xFF292D32);
   static const Color mainScaffoldColor = Color(0xFFF7F9FA);
   static const Color borderContainerColor = Color(0xFFF1F1F1);
+  static const Color lightGreyColor = Color(0xFFF1F1F1);
+  static const Color hintTextFieldColor = Color(0xFFAAAAAA);
 }

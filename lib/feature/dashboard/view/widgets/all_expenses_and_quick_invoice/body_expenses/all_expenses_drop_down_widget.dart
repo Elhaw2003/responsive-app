@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_app/feature/dashboard/view/widgets/body_expenses/drop_down_widget.dart';
-import '../../../../../core/utilities/app_text_style.dart';
-import '../../../../../core/utilities/app_texts.dart';
+
+import '../../../../../../core/utilities/app_text_style.dart';
+import '../../../../../../core/utilities/app_texts.dart';
+import 'drop_down_widget.dart';
 
 class AllExpensesDropDownWidget extends StatelessWidget {
   const AllExpensesDropDownWidget({super.key, required this.dropDownItems, required this.selectedValue, this.onChanged});

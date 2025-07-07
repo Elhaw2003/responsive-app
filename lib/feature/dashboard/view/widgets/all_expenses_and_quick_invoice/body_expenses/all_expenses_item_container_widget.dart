@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_app/feature/dashboard/models/all_expenses_item_model.dart';
-import 'package:responsive_app/feature/dashboard/view/widgets/body_expenses/all_expenses_item_widget.dart';
+import '../../../../../../core/utilities/app_colors.dart';
 
-import '../../../../../core/utilities/app_colors.dart';
+import 'all_expenses_item_widget.dart';
 
 class AllExpensesItemContainerWidget extends StatelessWidget {
   const AllExpensesItemContainerWidget({super.key, required this.allExpensesItemModel, this.onTap, required this.activeIndex, required this.index});

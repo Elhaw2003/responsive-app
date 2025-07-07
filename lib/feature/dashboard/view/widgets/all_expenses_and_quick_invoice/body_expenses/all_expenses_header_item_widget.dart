@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:responsive_app/feature/dashboard/models/all_expenses_item_model.dart';
-import '../../../../../core/utilities/app_colors.dart';
+import '../../../../../../core/utilities/app_colors.dart';
 class AllExpensesHeaderItemWidget extends StatelessWidget {
   const AllExpensesHeaderItemWidget({super.key, required this.allExpensesItemModel, required this.activeIndex, required this.index});
   final AllExpensesItemModel allExpensesItemModel;
@@ -12,7 +12,7 @@ class AllExpensesHeaderItemWidget extends StatelessWidget {
     return Row(
       children: [
         CircleAvatar(
-          backgroundColor:activeIndex == index?  AppColors.whiteColor.withOpacity(0.1):AppColors.lightWhiteColor,
+          backgroundColor:activeIndex == index ?  AppColors.whiteColor.withOpacity(0.1):AppColors.lightWhiteColor,
           radius: 40,
           child: SvgPicture.asset(
               allExpensesItemModel.iconImage,

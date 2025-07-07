@@ -28,6 +28,11 @@ abstract class AppTextStyle {
     fontSize: 16,
     fontWeight: FontWeight.w400
   );
+  static  TextStyle secondaryColorMontserratW500S16 =  GoogleFonts.montserrat(
+    color: AppColors.secondaryColor,
+    fontSize: 16,
+    fontWeight: FontWeight.w500
+  );
   static  TextStyle secondaryColorMontserratW600S20 =  GoogleFonts.montserrat(
     color: AppColors.secondaryColor,
     fontSize: 20,
@@ -57,5 +62,10 @@ abstract class AppTextStyle {
     color: AppColors.orangeColor,
     fontSize: 20,
     fontWeight: FontWeight.w600
+  );
+  static  TextStyle greyColorMontserratW400S16 =  GoogleFonts.montserrat(
+    color: AppColors.hintTextFieldColor,
+    fontSize: 16,
+    fontWeight: FontWeight.w400
   );
 }
