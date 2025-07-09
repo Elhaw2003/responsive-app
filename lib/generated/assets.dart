@@ -6,6 +6,7 @@ class Assets {
   static const String svgIconsBalance = 'assets/svg_icons/balance.svg';
   static const String svgIconsDashboard = 'assets/svg_icons/dashboard.svg';
   static const String svgIconsExpenses = 'assets/svg_icons/expenses.svg';
+  static const String svgIconsGallery = 'assets/svg_icons/gallery.svg';
   static const String svgIconsIcon1 = 'assets/svg_icons/icon1.svg';
   static const String svgIconsIcon2 = 'assets/svg_icons/icon2.svg';
   static const String svgIconsInCome = 'assets/svg_icons/in_come.svg';

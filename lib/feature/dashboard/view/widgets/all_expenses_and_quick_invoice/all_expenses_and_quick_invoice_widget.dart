@@ -10,6 +10,7 @@ class AllExpensesAndQuickInvoiceWidget extends StatelessWidget {
     return const SingleChildScrollView(
       child: Column(
         children: [
+          SizedBox(height: 40,),
           ExpensesBodyWidget(),
           SizedBox(height: 34,),
           QuickInvoiceBodyWidget(),
