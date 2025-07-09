@@ -4,7 +4,7 @@ import 'package:responsive_app/core/utilities/app_text_style.dart';
 import 'package:responsive_app/core/utilities/app_texts.dart';
 import 'package:responsive_app/feature/dashboard/view/widgets/all_expenses_and_quick_invoice/quick_invoice/title_widget.dart';
 
-import '../../../../../generated/assets.dart';
+import '../../../../../../generated/assets.dart';
 
 class ItemListTileMyCardWidget extends StatelessWidget {
   const ItemListTileMyCardWidget({super.key});

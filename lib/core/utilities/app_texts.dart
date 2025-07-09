@@ -20,7 +20,10 @@ abstract class AppTexts {
   static const String typeCustomerEmail = 'Type customer email';
   static const String usd = 'USD';
   static const String myCard = 'My card';
+  static const String income = 'Income';
+  static const String seeAll = 'See all';
   static const String syahBandi = 'Syah Bandi';
   static const String nameCard = 'Name card';
   static const String latestTransaction = 'Latest Transaction';
+  static const String transactionHistory = 'Transaction History';
 }

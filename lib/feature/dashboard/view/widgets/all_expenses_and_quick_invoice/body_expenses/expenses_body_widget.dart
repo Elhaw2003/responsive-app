@@ -3,6 +3,7 @@ import 'package:responsive_app/core/widgets/custom_background_container_widget.d
 import 'package:responsive_app/feature/dashboard/models/all_expenses_item_model.dart';
 import 'package:responsive_app/generated/assets.dart';
 
+import '../../../../../../core/utilities/app_texts.dart';
 import 'all_expenses_drop_down_widget.dart';
 import 'all_expenses_item_container_widget.dart';
 class ExpensesBodyWidget extends StatefulWidget {
@@ -25,7 +26,7 @@ class _ExpensesBodyWidgetState extends State<ExpensesBodyWidget> {
         padding: 20,
         child:Column(
       children: [
-        AllExpensesDropDownWidget(dropDownItems: dropDownItems, selectedValue: selectedValue,onChanged: (v){
+        AllExpensesDropDownWidget(text:AppTexts.allExpenses,dropDownItems: dropDownItems, selectedValue: selectedValue,onChanged: (v){
           setState(() {
             selectedValue = v.toString();
           });

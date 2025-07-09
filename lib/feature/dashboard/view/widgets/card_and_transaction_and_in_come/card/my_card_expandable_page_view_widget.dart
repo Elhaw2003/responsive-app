@@ -1,7 +1,7 @@
 import 'package:expandable_page_view/expandable_page_view.dart';
 import 'package:flutter/material.dart';
 
-import '../../../models/my_card_model.dart';
+import '../../../../models/my_card_model.dart';
 import 'my_card_widget.dart';
 
 class MyCardExpandablePageViewWidget extends StatelessWidget {

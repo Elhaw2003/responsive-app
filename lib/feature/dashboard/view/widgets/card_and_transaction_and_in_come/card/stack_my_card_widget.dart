@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../../../models/my_card_model.dart';
+import '../../../../models/my_card_model.dart';
 import 'item_list_tile_my_card_widget.dart';
 import 'my_card_expandable_page_view_widget.dart';
 import 'my_card_number_and_date_widget.dart';

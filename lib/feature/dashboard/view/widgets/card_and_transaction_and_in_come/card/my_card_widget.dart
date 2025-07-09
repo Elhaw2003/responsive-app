@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_app/feature/dashboard/models/my_card_model.dart';
-import '../../../../../generated/assets.dart';
 
+import '../../../../../../generated/assets.dart';
 class MyCardWidget extends StatelessWidget {
   const MyCardWidget({super.key, required this.myCardModel});
   final MyCardModel  myCardModel;
