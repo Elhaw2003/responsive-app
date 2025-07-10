@@ -9,7 +9,7 @@ class CustomLayoutWidget extends StatelessWidget {
         builder:(context, constraints) {
           if(constraints.maxWidth < 600){
             return mobileLayout(context);
-          }else if(constraints.maxWidth < 900){
+          }else if(constraints.maxWidth < 1300){
             return tabletLayout(context);
           }else{
             return desktopLayout(context);
