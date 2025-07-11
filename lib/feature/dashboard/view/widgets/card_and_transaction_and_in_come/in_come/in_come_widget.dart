@@ -19,22 +19,19 @@ class _InComeWidgetState extends State<InComeWidget> {
   Widget build(BuildContext context) {
     return CustomBackgroundContainerWidget(
       padding: 20,
-      child: SingleChildScrollView(
-        physics: NeverScrollableScrollPhysics(),
-        child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-                InComeHeaderWidget(
-                   onChanged: (v) {
-                     setState(() {
-                       selectedValue = v.toString();
-                     });
-                   },
-                    dropDownItems: dropDownItems, selectedValue: selectedValue),
-                const SizedBox(height: 15,),
-                const InComeChartDetailsWidget(),
-        ]),
-      ),
+      child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            InComeHeaderWidget(
+                onChanged: (v) {
+                  setState(() {
+                    selectedValue = v.toString();
+                  });
+                },
+                dropDownItems: dropDownItems, selectedValue: selectedValue),
+            const SizedBox(height: 15,),
+            const InComeChartDetailsWidget(),
+          ]),
     );
   }
 }
